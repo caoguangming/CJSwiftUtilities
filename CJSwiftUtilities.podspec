@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/caoguangming/CJSwiftUIExtension.git'
+  s.homepage         = 'https://github.com/caoguangming/CJSwiftUIExtension'
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gary' => 'caoguangmingcn@gmail.com' }
