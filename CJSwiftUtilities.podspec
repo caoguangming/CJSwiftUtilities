@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary          = 'A short description of CJSwiftUtilities.'
 
   s.description      = <<-DESC
-    Other
+    工具第三方
                        DESC
 
   s.homepage         = 'https://github.com/caoguangming/CJSwiftUIExtension'
