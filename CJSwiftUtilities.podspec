@@ -5,10 +5,12 @@ Pod::Spec.new do |s|
   s.summary          = 'A short description of CJSwiftUtilities.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    Other
                        DESC
 
   s.homepage         = 'https://github.com/caoguangming/CJSwiftUIExtension'
+  s.platform = :ios, "13.0"
+  s.swift_versions = ["5.0"]
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gary' => 'caoguangmingcn@gmail.com' }
