@@ -17,7 +17,7 @@ let package = Package(
         .target(
             name: "CJSwiftUtilities",
             dependencies: [],
-            path: "Sources/CJSwiftUtilities"
+            path: "CJSwiftUtilities/Sources/CJSwiftUtilities"
         )
     ]
 )
