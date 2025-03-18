@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/master.swiftdeps"
+  },
+  "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/Extension/String+Extension.swift": {
+    "dependencies": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/String+Extension.d",
+    "object": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/String+Extension.swift.o",
+    "swiftmodule": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/String+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/String+Extension.swiftdeps"
+  },
+  "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/Text+Extension.swift": {
+    "dependencies": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/Text+Extension.d",
+    "object": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/Text+Extension.swift.o",
+    "swiftmodule": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/Text+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/Text+Extension.swiftdeps"
+  },
+  "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/View+Extension.swift": {
+    "dependencies": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/View+Extension.d",
+    "object": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/View+Extension.swift.o",
+    "swiftmodule": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/View+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/View+Extension.swiftdeps"
+  }
+}

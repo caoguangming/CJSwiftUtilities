@@ -1,0 +1,4 @@
+module CJSwiftUtilities {
+    header "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/CJSwiftUtilities-Swift.h"
+    requires objc
+}

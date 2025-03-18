@@ -1,0 +1,47 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "CJSwiftUtilities-arm64-apple-macosx15.0-debug.module": ["<CJSwiftUtilities-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<CJSwiftUtilities-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<CJSwiftUtilities-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/Extension/String+Extension.swift","/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/Text+Extension.swift","/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/View+Extension.swift"]
+    outputs: ["/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources"]
+    description: "Write auxiliary file /Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources"
+
+  "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<CJSwiftUtilities-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/String+Extension.swift.o","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/Text+Extension.swift.o","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/View+Extension.swift.o","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/Modules/CJSwiftUtilities.swiftmodule"]
+    outputs: ["<CJSwiftUtilities-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.CJSwiftUtilities-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/Extension/String+Extension.swift","/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/Text+Extension.swift","/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/View+Extension.swift","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources"]
+    outputs: ["/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/String+Extension.swift.o","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/Text+Extension.swift.o","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/View+Extension.swift.o","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/Modules/CJSwiftUtilities.swiftmodule"]
+    description: "Compiling Swift Module 'CJSwiftUtilities' (3 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","CJSwiftUtilities","-emit-dependencies","-emit-module","-emit-module-path","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/Modules/CJSwiftUtilities.swiftmodule","-output-file-map","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources","-I","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.15","-enable-batch-mode","-index-store-path","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/CJSwiftUtilities-Swift.h","-color-diagnostics","-swift-version","5","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/","/Users/monster/Documents/GitHub/CJSwiftUtilities/Package.swift","/Users/monster/Documents/GitHub/CJSwiftUtilities/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

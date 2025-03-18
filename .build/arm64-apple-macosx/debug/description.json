@@ -1,0 +1,235 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CJSwiftUtilities-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources",
+      "importPath" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/Extension/String+Extension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/Text+Extension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/View+Extension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CJSwiftUtilities",
+      "moduleOutputPath" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/Modules/CJSwiftUtilities.swiftmodule",
+      "objects" : [
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/String+Extension.swift.o",
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/Text+Extension.swift.o",
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/View+Extension.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/CJSwiftUtilities-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/String+Extension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/Text+Extension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/View+Extension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/Modules/CJSwiftUtilities.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/Extension/String+Extension.swift",
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/Text+Extension.swift",
+        "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/View+Extension.swift"
+      ],
+      "tempsPath" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "CJSwiftUtilities" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "CJSwiftUtilities",
+      "-incremental",
+      "-c",
+      "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/Extension/String+Extension.swift",
+      "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/Text+Extension.swift",
+      "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/View+Extension.swift",
+      "-I",
+      "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/CJSwiftUtilities-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CJSwiftUtilities" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/Extension/String+Extension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/Text+Extension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/CJSwiftUtilities/Sources/CJSwiftUtilities/SwiftUI/View+Extension.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/CJSwiftUtilities.build/sources"
+    },
+    "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/monster/Documents/GitHub/CJSwiftUtilities/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
