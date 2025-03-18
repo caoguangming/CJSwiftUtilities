@@ -24,7 +24,7 @@ extension View {
     /// - Parameter type: 裁剪方式
     /// - Returns: 裁剪后的视图
     @available(iOS 13.0, macOS 10.15, *)
-    public func clipCorner(type: CJClipCornerWay) -> some View {
+    public func cj_clipCorner(type: CJClipCornerWay) -> some View {
         Group {
             switch type {
             case .Circle:
