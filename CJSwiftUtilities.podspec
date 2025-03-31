@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJSwiftUtilities'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = '一个工具类'
 
   s.homepage         = 'https://github.com/caoguangming/CJSwiftUIExtension'
@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'CJSwiftUtilities/Sources/CJSwiftUtilities/**/*'
+  s.dependency 'SwiftUIIntrospect'
  
 end

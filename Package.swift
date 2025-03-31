@@ -13,10 +13,15 @@ let package = Package(
             targets: ["CJSwiftUtilities"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/siteline/swiftui-introspect", from: "1.3.0")
+    ],
     targets: [
         .target(
             name: "CJSwiftUtilities",
-            dependencies: [],
+            dependencies: [
+                .product(name: "SwiftUIIntrospect", package: "swiftui-introspect")
+            ],
             path: "CJSwiftUtilities/Sources/CJSwiftUtilities"
         )
     ]
