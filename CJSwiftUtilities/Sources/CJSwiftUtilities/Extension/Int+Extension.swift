@@ -8,10 +8,5 @@
 import Foundation
 
 extension Int {
-    var cj_romanNumeral: String? {
-        guard self > 0 else {
-            return nil
-        }
-        let roman
-    }
+    
 }

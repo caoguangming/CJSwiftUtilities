@@ -21,7 +21,6 @@ extension String {
         return URL(string: self) != nil
     }
     
-    
     /// 将string转化成URL
     public var cj_url: URL? {
         return URL(string: self)
