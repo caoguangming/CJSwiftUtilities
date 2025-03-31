@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJSwiftUtilities'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = '一个工具类'
 
-  s.homepage         = 'https://github.com/caoguangming/CJSwiftUIExtension'
+  s.homepage         = 'https://github.com/caoguangming/CJSwiftUtilities'
   s.platform = :ios, "13.0"
   s.swift_versions = ["5.0"]
   
