@@ -57,8 +57,11 @@ extension View {
         }
     }
     
+    /// 设置导航栏背景颜色
+    /// - Parameter color: 需要设置的颜色
+    /// - Returns: <#description#>
     public func cj_navigationBackgroundColor(_ color: Color) -> some View {
-        self.introspect(.viewController, on: .iOS(.v13, .v14, .v15, .v16, .v17)) { viewController in
+        self.introspect(.viewController, on: .iOS(.v13, .v14, .v15, .v16, .v17, .v18)) { viewController in
             DispatchQueue.main.async {
                 if #available(iOS 15.0, *) {
                     let apperance = UINavigationBarAppearance()
